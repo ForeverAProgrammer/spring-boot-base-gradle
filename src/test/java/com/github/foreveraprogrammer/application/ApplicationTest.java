@@ -1,4 +1,4 @@
-package hello;
+package com.github.foreveraprogrammer.application;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -9,8 +9,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class ApplicationTest {
 
-    @Test
-    public void contextLoads() throws Exception {
-    }
+	@Test
+	public void contextLoads() {
+	}
 
 }
