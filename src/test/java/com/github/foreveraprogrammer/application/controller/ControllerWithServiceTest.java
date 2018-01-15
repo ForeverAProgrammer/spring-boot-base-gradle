@@ -18,8 +18,8 @@ import org.springframework.test.web.servlet.MockMvc;
 import com.github.foreveraprogrammer.application.service.GreetingService;
 
 @RunWith(SpringRunner.class)
-@WebMvcTest(GreetingController.class)
-public class GreetingControllerTest {
+@WebMvcTest(ControllerWithService.class)
+public class ControllerWithServiceTest {
 
     @Autowired
     private MockMvc mockMvc;

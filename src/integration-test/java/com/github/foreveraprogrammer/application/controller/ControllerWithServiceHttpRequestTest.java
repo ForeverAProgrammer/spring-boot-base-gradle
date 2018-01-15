@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
-public class GreetingControllerHttpRequestTest {
+public class ControllerWithServiceHttpRequestTest {
 
     @LocalServerPort
     private int port;

@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.github.foreveraprogrammer.application.service.GreetingService;
 
 @Controller
-public class GreetingController {
+public class ControllerWithService {
 
 	private final GreetingService service;
 
-	public GreetingController(GreetingService service) {
+	public ControllerWithService(GreetingService service) {
 		this.service = service;
 	}
 
