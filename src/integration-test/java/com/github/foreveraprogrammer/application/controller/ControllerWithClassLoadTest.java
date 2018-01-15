@@ -10,10 +10,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class HomeControllerLoadsTest {
+public class ControllerWithClassLoadTest {
 
 	@Autowired
-	private HomeController controller;
+	private ControllerWithClass controller;
 
 	@Test
 	public void contexLoads() throws Exception {
