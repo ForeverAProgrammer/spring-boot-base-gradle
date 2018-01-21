@@ -3,7 +3,7 @@ This is a spring boot application that demos the following:
 * [Gradle](https://gradle.org/)
 * Unit Tests 
 * Integration Tests 
-* Using [JaCoco](http://www.eclemma.org/index.html) to view testing coverage
+* Using [JaCoCo](http://www.jacoco.org/jacoco/) to view testing coverage
 * Spring Boot
 * Controllers
   * Simple Controller
@@ -19,7 +19,7 @@ The project also includes integration tests which can be run with the **./gradle
 
 The integration tests are seperate from the build because it's best practices to keep them seperate because they take longer to run. 
 
-[JaCoco](http://www.eclemma.org/index.html) is setup to generate a test coverage report every build. This report will be located at **/build/reports/jacoco/test/html/index.html**
+[JaCoCo](http://www.jacoco.org/jacoco/) is setup to generate a test coverage report every build. This report will be located at **/build/reports/jacoco/test/html/index.html**
 
 This project uses [Gradle](https://gradle.org/) to do the following:
 * Build the project
