@@ -11,6 +11,7 @@ This is a spring boot application that demos the following:
   * Controller with a Class
 * Creating a custom task in Gradle (integrationTest task)
 * Setting up a Gradle task to depend on another Gradle task (JaCoCo task)
+* Excluding a file from JaCoCo testing coverage reports (Application.java)
 
 # Project Purpose
 This project was to demo creating controllers in Spring Boot and mapping them to rest endpoints. The project includes unit tests which run everytime the project is build. The results of the unit tests will be located at **/build/reports/test/index.html**.
@@ -19,7 +20,7 @@ The project also includes integration tests which can be run with the **./gradle
 
 The integration tests are seperate from the build because it's best practices to keep them seperate because they take longer to run. 
 
-[JaCoCo](http://www.jacoco.org/jacoco/) is setup to generate a test coverage report every build. This report will be located at **/build/reports/jacoco/test/html/index.html**. You can read more about the Gradle JaCoCo plugin [here](https://docs.gradle.org/current/userguide/jacoco_plugin.html).
+[JaCoCo](http://www.jacoco.org/jacoco/) is setup to generate a test coverage report every build. This report will be located at **/build/reports/jacoco/test/html/index.html**. You can read more about the Gradle JaCoCo plugin [here](https://docs.gradle.org/current/userguide/jacoco_plugin.html). I modified the gradle.build file to exclude the Application.java file from the testing coverage reports. 
 
 This project uses [Gradle](https://gradle.org/) to do the following:
 * Build the project
