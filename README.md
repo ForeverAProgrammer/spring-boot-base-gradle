@@ -9,7 +9,7 @@ This is a spring boot application that demos the following:
   * Simple Controller
   * Controller With a Service
   * Controller with a Class
-* Creating a custom task in Gradle (The integrationTest task)
+* Creating a custom task in Gradle (integrationTest task)
 * Setting up a Gradle task to depend on another Gradle task (JaCoCo task)
 
 # Project Purpose
