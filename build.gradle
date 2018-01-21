@@ -46,6 +46,22 @@ dependencies {
     testCompile("org.springframework.boot:spring-boot-starter-test")
 }
 
+jacocoTestReport {
+    reports {
+        html {
+            enabled true
+        }
+    }
+ 
+    afterEvaluate {
+        classDirectories = files(classDirectories.files.collect {
+            fileTree(dir: it, exclude: [
+                    '**/*Application**'
+            ])
+        })
+    }
+}
+
 task integrationTest(type: Test) {
     testClassesDir = sourceSets.integrationTest.output.classesDir
     classpath = sourceSets.integrationTest.runtimeClasspath
