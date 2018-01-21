@@ -19,7 +19,7 @@ The project also includes integration tests which can be run with the **./gradle
 
 The integration tests are seperate from the build because it's best practices to keep them seperate because they take longer to run. 
 
-[JaCoCo](http://www.jacoco.org/jacoco/) is setup to generate a test coverage report every build. This report will be located at **/build/reports/jacoco/test/html/index.html**
+[JaCoCo](http://www.jacoco.org/jacoco/) is setup to generate a test coverage report every build. This report will be located at **/build/reports/jacoco/test/html/index.html**. You can read more about the Gradle JaCoCo plugin [here](https://docs.gradle.org/current/userguide/jacoco_plugin.html).
 
 This project uses [Gradle](https://gradle.org/) to do the following:
 * Build the project
